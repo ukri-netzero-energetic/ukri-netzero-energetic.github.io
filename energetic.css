@@ -1,0 +1,23 @@
+/* TO DO
+   bullets: small space above first & below every, except last which has large space below 
+*/
+
+h1 {
+  background-color: black;
+  color: red;
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding-top:.4em; padding-bottom:.2em;
+}
+
+body {
+  background-color: lightgrey;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TO DO
+   bullets: small space above first & below every, except last which has large space below 
+*/
+
+
+liv_h2{font-size:130%;color:#031F73;font-family:"proxima-nova", arial, sans-serif;font-weight:600;margin-bottom:0.05em;margin-top:0.75em;line-height:1.25em;letter-spacing:-0.005em;font-weight:800}
