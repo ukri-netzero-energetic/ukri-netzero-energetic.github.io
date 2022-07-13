@@ -1,14 +1,14 @@
 /* energy saving dark theme */
 h1 {
-  background-color: black;
-  color: red;
+  background-color: DarkOliveGreen;
+  color: Black;
   font-family: "Lucida Console", "Courier New", monospace;
   padding-top:.4em; padding-bottom:.2em;
 }
 
 body {
-  background-color: lightgrey;
-  color: black;
+  background-color: HoneyDew;
+  color: Black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
