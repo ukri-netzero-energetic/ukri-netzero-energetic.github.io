@@ -11,4 +11,47 @@
       <li><a href="https://www.epcc.ed.ac.uk/about-us/our-team/dr-oliver-brown">Dr. Oliver Thomson Brown</a>, EPCC
       <li><a href="https://dbhowmik.github.io/">Dr. Deepayan Bhowmik</a>, Newcastle Univeristy
       <li><a href="https://www.ucl.ac.uk/advanced-research-computing/people">Dr. Jamie Quinn</a>, UCL
-</body></html>
+    </ul>
+    <h1>Synopsis</h1>
+    Current, leading-edge high performance computing (HPC) systems are often heterogeneous, comprised of combinations of multiple compute units and accelerators, including (but not limited to) CPUs, GPUs and FPGAs. HPC is a significant contributor to energy usage. However, the energy-to-solution varies between these architectures. In terms of minimising energy consumption, this choice of possible architectures presents various challenges to HPC managers and users.
+    <p>
+Currently, there is little data on the energy efficiency of codes or algorithms across different architectures, a lack of an established framework for measuring this on new systems, and little use of existing tools like Performance Application Programming Interface (PAPI) for measuring and comparing power draw from hardware. Due to this lack of data, it is difficult for DRI managers/users to effectively design codes and systems to meet quantifiable energy budgets that contribute to achieving net-zero goals.
+      <p>
+This project aims to test whether the use of heterogeneous architecture could significantly reduce the energy-to-solution and thus the energy consumed by UKRI digital research infrastructures. A workshop and other community engagements are planned involving key stakeholders to aid understanding the current state and enable dissemination of project findings of reducing energy consumption.
+        <p>
+Reference document DOI:10.5281/zenodo.6787467.
+    <h1>Outline of Work Packages</h1>
+    Research into the energy cost of scientific simulations running on heterogeneous
+platforms (CPU/GPU/FPGA) in order to determine under which conditions use of GPU
+and/or FPGA saves significant energy c.f. to using CPU alone. This project involves use of
+national and local facilities (providing CPU+GPU, CPU+FPGA) and CPU+GPU+FPGA
+platform via purchase of GPU to extend FPGA testbed, representing variety within HPC
+infrastructures.<p>
+We hypothesize significant energy-to-solution savings can be made by employing some
+use of heterogeneous architectures. The outputs from this project will be evaluation of this
+hypothesis, and a report detailing how best (& when) to make use of heterogeneous
+platforms to reduce energy. This would feed into a discussion with stakeholders about how
+best to monitor and compare energy usage across architectures.<p>
+We propose three work packages:<br>
+WP1 (month 1) requirements & design: we shall determine the most appropriate exemplar
+packages taken from jobs run on Archer/Archer2 (historically what people have used) and
+the Berkeley Dwarves (suite of codes representing popular programming patterns, such as
+memory- or compute-intensive), making use of those already ported to GPU &/or FPGA,
+and avoiding those already studied; we also examine/liaise with a number of facilities
+(Excalibur FPGA Testbed, Cirrus/EPCC, Myriad/UCL, neumann/MMU) regarding methods
+to record energy to solution for a given job whether using CPU and/or GPU and/or FPGA.
+    <p>
+WP2 (months 2-5) design/port, run & measure: taking outputs from WP1, we shall
+design/port (as required) and run the exemplar packages on heterogeneous platforms
+(with varying number of processing elements), recording the energy to solution. There will
+be significant work in ensuring optimal energy performance on each of the CPU, GPU and
+FPGA elements.
+    <p>
+WP3 (months 4-5) dissemination: this will comprise a workshop in Manchester (collocated
+with the national Computing Insight UK conference on 1 &amp;2 Dec 2022). At this, we will present our findings and engage with
+key stakeholders (users, vendors, policymakers) on the barriers to energy monitoring, and
+comparable metrics across systems. This input will drive our final report on the new
+ground of using heterogeneous architecture to reduce energy. The report will include
+recommendations for both users and policymakers.
+
+  </body></html>
